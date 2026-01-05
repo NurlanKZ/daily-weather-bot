@@ -7,6 +7,8 @@ from telegram.ext import ApplicationBuilder
 BOT_TOKEN = os.environ.get('BOT_TOKEN')
 CHANNEL_ID = os.environ.get('CHANNEL_ID')
 
+# Jan 5 2026 Relaunch
+
 # Create the Application and pass it your bot's token.
 async def send_daily_message(app):
     url = "https://www.gismeteo.kz/weather-astana-5164/"
